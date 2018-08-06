@@ -1,0 +1,16 @@
+- name: "Sébastien's home"
+  github_nickname: 'ssaunier'
+  description: 'Charming room in Montmartre'
+  city: 'Paris'
+  country: 'France'
+- name: "Boris's home"
+  github_nickname: 'papillard'
+  description: 'Small flat in Tokyo'
+  city: 'Tokyo'
+  country: 'Japan'
+- name: "Romain's home"
+  github_nickname: 'monsieurpaillard'
+  description: 'Nice flat in Piccadilly'
+  city: 'London'
+  country: 'UK'
+
