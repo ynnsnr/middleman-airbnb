@@ -1,5 +1,5 @@
 activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
+  prefix.browsers = 'last 2 versions'
 end
 
 activate :sprockets
@@ -21,6 +21,6 @@ activate :deploy do |deploy|
   deploy.deploy_method = :git
 end
 
-["papillard", "ssaunier", "monsieurpaillard"].each do |name|
-  proxy "/flats/#{name}.html", "/flats/show.html", locals: { owner: name }, ignore: true
+%w[papillard ssaunier monsieurpaillard].each do |name|
+  proxy "/flats/#{name}.html", '/flats/show.html', locals: { owner: name }, ignore: true
 end

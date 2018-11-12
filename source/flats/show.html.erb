@@ -1,3 +1,7 @@
+---
+title: Le Wagon - Middleman
+---
+
 <!-- Access data.flats with owner's name as key -->
 <% flat = data.flats[owner] %>
 
@@ -9,10 +13,11 @@
   <div class="wrapper">
     <div class="container">
       <div class="row">
+
         <div class="col-xs-12 col-sm-6 col-sm-offset-1">
           <div class="header-flat-details">
             <div class="header-flat-owner  text-center">
-              <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class:"img-circle", width:"80" %>
+              <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class:'img-circle', width:'80' %>
               <p><%= owner.capitalize %></p>
             </div>
             <div class="header-flat-name">
@@ -29,6 +34,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-xs-12 col-sm-4">
           <form action="#" >
             <h4>Book this flat</h3>
@@ -52,6 +58,7 @@
             <input type="submit" class="btn btn-danger" value="Book it" style="width: 100%">
           </form>
         </div>
+
       </div>
     </div>
   </div>
